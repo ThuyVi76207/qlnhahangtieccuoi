@@ -1,0 +1,51 @@
+.footer {
+    background-color: #051120;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    height: 200px;
+}
+
+.footer-right {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.icon-house::after {
+    content: 'Nguyen Kiem Street, Ward 3, District Go Vap, Ho Chi Minh city.';
+    padding-left: 12px;
+
+}
+
+.icon-phone::after {
+    content: '0863.500.562';
+    padding-left: 12px;
+
+}
+
+.icon-mail::after {
+    content: 'mydung@gmail.com';
+    padding-left: 12px;
+
+}
+
+.footer-left {
+    font-size: 18px;
+}
+
+.icon-info {
+    display: flex;
+    gap: 5px;
+}
+
+.icon-info-item {
+    font-size: 35px;
+}
+
+.copy-right {
+    font-size: 18px
+}

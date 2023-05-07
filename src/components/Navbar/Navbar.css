@@ -1,0 +1,36 @@
+.navbar-app {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 1px solid #885378;
+
+}
+
+ul>li {
+    list-style: none;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul>li a:hover {
+    color: blue
+}
+
+.menu>ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5%;
+}
+
+.menu {
+    width: 90%;
+    margin: 0 auto;
+}
